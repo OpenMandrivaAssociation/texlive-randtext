@@ -47,6 +47,7 @@ easily picking up the address.
 %files
 %{_texmfdistdir}/tex/latex/randtext/randtext.sty
 %doc %{_texmfdistdir}/doc/latex/randtext/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +58,5 @@ easily picking up the address.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
