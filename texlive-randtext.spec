@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-randtext
 Version:	20070226
-Release:	9
+Release:	10
 Summary:	Randomise the order of characters in strings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/randtext/randtext.sty
