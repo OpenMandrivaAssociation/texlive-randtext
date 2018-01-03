@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/randtext/randtext.sty
-# catalog-date 2007-02-26 00:17:56 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-randtext
 Version:	20170414
 Release:	1
@@ -37,8 +31,8 @@ easily picking up the address.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/randtext/randtext.sty
-%doc %{_texmfdistdir}/doc/latex/randtext/README
+%{_texmfdistdir}/tex/latex/randtext
+%doc %{_texmfdistdir}/doc/latex/randtext
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,17 +43,3 @@ easily picking up the address.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070226-2
-+ Revision: 755576
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070226-1
-+ Revision: 719430
-- texlive-randtext
-- texlive-randtext
-- texlive-randtext
-- texlive-randtext
-
