@@ -1,5 +1,5 @@
 Name:		texlive-randtext
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Randomise the order of characters in strings
 Group:		Publishing
