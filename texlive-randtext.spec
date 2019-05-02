@@ -1,6 +1,6 @@
 Name:		texlive-randtext
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Randomise the order of characters in strings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/randtext/randtext.sty
